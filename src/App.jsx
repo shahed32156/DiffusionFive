@@ -253,7 +253,7 @@ function App() {
           {showScrollTop && (
             <button
               onClick={scrollToTop}
-              className='fixed bottom-5 right-5 bg-[black] text-white p-3 rounded-full shadow-lg hover:bg-pink-700 transition-colors duration-300'
+              className='fixed bottom-5 right-5 bg-[black] text-white p-3 rounded-full shadow-lg transition-colors duration-300'
             >
               <FaArrowUp size={20} />
             </button>
